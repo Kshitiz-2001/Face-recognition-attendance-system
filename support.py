@@ -82,10 +82,10 @@ class Support:
             self.text.insert(END,'\n\n'+'Bot: Hello')
         
         elif(self.entry.get()=='what is your name'):
-            self.text.insert(END,'\n\n'+'Bot: My name is hacker')
+            self.text.insert(END,'\n\n'+'Bot: My name is helper')
 
         elif(self.entry.get()=='Who created you'):
-            self.text.insert(END,'\n\n'+'Bot: Mansi created me using python')
+            self.text.insert(END,'\n\n'+'Bot: Kshitiz created me using python')
 
         elif(self.entry.get()=='How are you'):
             self.text.insert(END,'\n\n'+'Bot: fine and you   ')

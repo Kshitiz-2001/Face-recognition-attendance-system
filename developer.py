@@ -33,7 +33,7 @@ class About_Developer:
         title_lbl.place(x=0,y=0,width=600,height=35)
 
 #text
-        title_lbl1=Label(self.root,text="My name is Mansi Rao.", font=("times new roman",14,"bold"))
+        title_lbl1=Label(self.root,text="My name is Kshitiz Verma.", font=("times new roman",14,"bold"))
         title_lbl1.place(x=0,y=50,height=20)
         title_lbl2=Label(self.root,text="currently pursuing Bachelor of Technology in Information Technology", font=("times new roman",14,"bold"))
         title_lbl2.place(x=0,y=70,height=20)
@@ -47,16 +47,16 @@ class About_Developer:
 
 #mail to function
         def mailto():
-                webbrowser.open("mailto:?to=raomansi126@gmail.com&subject=support", new=1)
+                webbrowser.open("mailto:?to=ksv986@gmail.com&subject=support", new=1)
 
 
 #contact
         link1=Label(self.root,text="Insta:", font=("times new roman",14,"bold"))
         link1.place(x=0,y=150,height=20)
 
-        link1_1 = Label(root, text="mansi____rao", fg="blue", cursor="hand2")
+        link1_1 = Label(root, text="kshitiz.v_", fg="blue", cursor="hand2")
         link1_1.pack()
-        link1_1.bind("<Button-1>", lambda e: callback("https://instagram.com/mansi____rao?igshid=YmMyMTA2M2Y="))
+        link1_1.bind("<Button-1>", lambda e: callback("https://www.instagram.com/kshitiz.v_/"))
         link1_1.place(x=100,y=150,height=20)
 
 
